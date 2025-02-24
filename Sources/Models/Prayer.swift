@@ -25,7 +25,7 @@
 
 import Foundation
 
-public enum Prayer: CaseIterable {
+public enum Prayer: CaseIterable, Codable {
     case fajr
     case sunrise
     case dhuhr
